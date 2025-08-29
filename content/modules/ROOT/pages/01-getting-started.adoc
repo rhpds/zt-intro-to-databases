@@ -1,0 +1,21 @@
+First, install MySQL by running the following command:
+
+[source,bash,run]
+----
+dnf install -y mysql-server
+----
+
+Next, start MySQL with this command:
+
+[source,bash,run]
+----
+systemctl start mysqld.service
+----
+
+Finally, use `+systemctl+` to allow MySQL to automatically start when
+the system boots:
+
+[source,bash,run]
+----
+systemctl enable mysqld.service
+----

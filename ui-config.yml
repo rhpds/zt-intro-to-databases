@@ -1,0 +1,24 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-getting-started"
+      label: "Getting Started"
+      solveButton: false
+    - name: "02-configure-mysql"
+      label: "Configure Mysql"
+      solveButton: false
+    - name: "03-create-a-database"
+      label: "Create A Database"
+      solveButton: false
+    - name: "04-add-data"
+      label: "Add Data"
+      solveButton: false
+    - name: "05-configure-a-web-interface"
+      label: "Configure A Web Interface"
+      solveButton: false
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty_rhel/ssh/root

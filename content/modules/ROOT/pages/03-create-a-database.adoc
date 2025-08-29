@@ -1,0 +1,45 @@
+First, begin a MySQL session by running the following command:
+
+[source,bash,run]
+----
+mysql -p
+----
+
+____
+Note: the -p flag at the end of the command allows you to log into MySQL
+with a password.
+____
+
+When prompted, enter the password you supplied earlier and then press
+enter:
+
+....
+rhel
+....
+
+The output of the previous command should resemble this:
+
+Next, create a database called `+MyDatabase+`
+
+[source,sql,run]
+----
+CREATE DATABASE MyDatabase;
+----
+
+Creating your database will result in an output resembling this:
+
+Now, select your new server for use by running this command:
+
+[source,sql,run]
+----
+USE MyDatabase;
+----
+
+This will result in the following output:
+
+____
+Note: every time you begin a MySQL session, you will need to select the
+server you wish to use via the `+USE+` command. You can view the details
+of your current server by running the `+status+` command with no
+arguments inside your MySQL session.
+____
