@@ -3,7 +3,7 @@ virtualmachines:
   - name: "rhel"
     image: "rhel-10-0-07-09-25-3"
     bootloader: efi
-    memory: "46"
+    memory: "4G"
     cores: 1
     packages:
       - tmux
@@ -13,3 +13,17 @@ virtualmachines:
         value: "bastions"
     networks:
       - default
+    services:
+      - name: adminer
+        ports:
+          - port: 80
+            protocol: TCP
+            targetPort: 80
+            name: adminer
+    routes:
+      - name: adminer
+        host: adminer
+        service: adminer
+        targetPort: 80
+        tls: true
+        tls_termination: Edge
