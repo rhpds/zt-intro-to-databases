@@ -12,7 +12,7 @@ ingress:
   - from:
       - podSelector:
           matchLabels:
-            kubevirt.io: virt-launcher
+            kubevirt.io: showroom
 # The following lines are suggested based on Instruqt's allow_external_ingress fields:
 # rhel:
 #   - http
