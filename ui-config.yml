@@ -23,7 +23,7 @@ tabs:
   - name: ">_ terminal"
     url: /wetty_rhel/ssh/root
   - name: "Adminer"
-    url: http://adminer-${guid}.${domain}/index.php
+    url: http://adminer-${guid}.${domain}/
     modules:
       - "05-configure-a-web-interface"
 
