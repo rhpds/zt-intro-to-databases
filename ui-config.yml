@@ -23,5 +23,5 @@ tabs:
   - name: ">_ terminal"
     url: /wetty_rhel/ssh/root
   - name: "Adminer"
-    url: http://adminer-${guid}.${domain}/
+    url: http://adminer-${guid}.${domain}/index.php
 
