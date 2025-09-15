@@ -27,7 +27,11 @@ made, run this command:
 
 [source,bash,run]
 ----
-wget -O /var/www/html/adminer/index.php https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1-en.php
+# If the file does not already exist, download Adminer
+if [ ! -f /var/www/html/adminer/index.php ]; then
+    wget -O /var/www/html/adminer/index.php \
+         https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1-en.php
+fi
 ----
 
 Next, configure Adminer’s ownership and permissions:
