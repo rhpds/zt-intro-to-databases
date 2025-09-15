@@ -19,7 +19,7 @@ it as your working directory:
 
 [source,bash,run]
 ----
-mkdir /var/www/html/adminer && cd /var/www/html/adminer
+mkdir -p /var/www/html/adminer && cd /var/www/html/adminer
 ----
 
 To download Adminer from its GitHub repository into the directory you
