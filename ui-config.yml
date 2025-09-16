@@ -22,3 +22,8 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty_rhel/ssh/root
+  - name: "Adminer"
+    url: http://adminer-${guid}.${domain}/adminer
+    modules:
+      - "05-configure-a-web-interface"
+
