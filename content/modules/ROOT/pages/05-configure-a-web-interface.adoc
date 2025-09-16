@@ -58,4 +58,5 @@ Log in with the following settings: * System: `+MySQL+` * Server:
 `+MyDatabase+`
 
 You will now see the tables you created earlier:
-image::Adminer_MyDatabase.png[Adminer_MyDatabase]
+
+image::Adminer_MyDatabase.png[]

@@ -11,7 +11,9 @@ provide you with guidance to help you along!
 
 To record all of the items in your home, there are many ways to organize
 the database. For our lab, we will use this database design:
-image::Home_Database_Diagram.png[Home inventory database design]
+
+image::Home_Database_Diagram.png[]
+
 In this diagram: * Each item has a name, an ID number, a value,
 and a location (room) where it is stored. The location (room) of the
 item is a foreign key because it relates to the Room entity. The ID
